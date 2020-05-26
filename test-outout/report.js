@@ -17,8 +17,7 @@ formatter.match({
   "location": "stepDefinitions.stepTruckToolsRentals.url_to_the_hoem_page()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: home page title fail expected [The Home Depot] but found [1The Home Depot]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat stepDefinitions.stepTruckToolsRentals.url_to_the_hoem_page(stepTruckToolsRentals.java:27)\n\tat ✽.url to the hoem page(file:///Users/surajgurung/Documents/java/INTELLIJ/homedepot/Features/truckToolsRentals.feature:4)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "go to the truck and rentals",
@@ -28,7 +27,7 @@ formatter.match({
   "location": "stepDefinitions.stepTruckToolsRentals.go_to_the_truck_and_rentals()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "check the tital",
@@ -38,7 +37,7 @@ formatter.match({
   "location": "stepDefinitions.stepTruckToolsRentals.check_the_tital()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "secoond test",

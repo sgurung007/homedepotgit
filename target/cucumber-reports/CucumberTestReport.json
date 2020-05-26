@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-26T03:54:39.768Z",
+        "start_timestamp": "2020-05-26T04:03:57.689Z",
         "line": 3,
         "name": "Check out the concrete grinder",
         "description": "",
@@ -13,9 +13,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.AssertionError: home page title fail expected [The Home Depot] but found [1The Home Depot]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat stepDefinitions.stepTruckToolsRentals.url_to_the_hoem_page(stepTruckToolsRentals.java:27)\n\tat ✽.url to the hoem page(file:///Users/surajgurung/Documents/java/INTELLIJ/homedepot/Features/truckToolsRentals.feature:4)\n",
-              "duration": 6286000000,
-              "status": "failed"
+              "duration": 7439000000,
+              "status": "passed"
             },
             "line": 4,
             "name": "url to the hoem page",
@@ -26,7 +25,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 5,
             "name": "go to the truck and rentals",
@@ -37,7 +36,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 6,
             "name": "check the tital",
@@ -49,7 +48,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-26T03:54:46.081Z",
+        "start_timestamp": "2020-05-26T04:04:05.146Z",
         "line": 8,
         "name": "secoond test",
         "description": "",
@@ -94,7 +93,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-26T03:54:46.085Z",
+        "start_timestamp": "2020-05-26T04:04:05.154Z",
         "line": 13,
         "name": "third test",
         "description": "",
