@@ -12,26 +12,29 @@ import static org.testng.Assert.assertEquals;
 
 
 public class stepTruckToolsRentals {
-    WebDriver driver;
+    static WebDriver driver;
 
 
     @Given("url to the hoem page")
-    public void url_to_the_hoem_page() throws InterruptedException {
+    public void url_to_the_hoem_page() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.get("https://www.homedepot.com/");
         String title = driver.getTitle();
-        driver.quit();
+
         Assert.assertEquals("The Home Depot", title, "home page title fail");
         System.out.println("step 1");
+        String myName = "suraj gurung";
     }
 
     @Then("go to the truck and rentals")
     public void go_to_the_truck_and_rentals() {
         System.out.println("step2");
-
+        String currentURL = driver.getCurrentUrl();
+        Assert.assertEquals(currentURL, driver.getCurrentUrl(), " Url of the website");
+        driver.quit();
     }
 
 

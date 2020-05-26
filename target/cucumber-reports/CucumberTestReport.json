@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-26T04:03:57.689Z",
+        "start_timestamp": "2020-05-26T07:55:46.537Z",
         "line": 3,
         "name": "Check out the concrete grinder",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7439000000,
+              "duration": 6280000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,6 +25,7 @@
           },
           {
             "result": {
+              "duration": 178000000,
               "status": "passed"
             },
             "line": 5,
@@ -48,7 +49,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-26T04:04:05.146Z",
+        "start_timestamp": "2020-05-26T07:55:53.019Z",
         "line": 8,
         "name": "secoond test",
         "description": "",
@@ -69,6 +70,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -80,7 +82,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 11,
@@ -93,7 +94,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-26T04:04:05.154Z",
+        "start_timestamp": "2020-05-26T07:55:53.025Z",
         "line": 13,
         "name": "third test",
         "description": "",
@@ -125,7 +126,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 16,
